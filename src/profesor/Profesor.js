@@ -3,17 +3,13 @@ import ReactDOM from'react-dom';
 import Header from '../components/layout/Header';
 import PageWithNav from '../components/layout/PageWithNav';
 import Content from '../components/layout/Content';
-var injectTapEventPlugin = require("react-tap-event-plugin");
-injectTapEventPlugin();
 
-class Admin extends React.Component {
-    displayName: "React-breadcrumbs";
+
+class Profesor extends React.Component {
 render() {
   let menuItems = [
-    { route: '/studenti', text: 'Studenti'},
-    { route: '/profesori', text: 'Profesori'},
-    { route: '/kursevi', text: 'Kursevi'},
-    { route: '/gradivo', text: 'Gradivo'}
+    { route: '/profesor/studenti', text: 'Studenti'},
+    { route: '/profesor/programi', text: 'Programi'}
   ];
   return (
       <Header>
@@ -25,4 +21,4 @@ render() {
 }
 }
 
-export default Admin;
+export default Profesor;

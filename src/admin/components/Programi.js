@@ -5,10 +5,10 @@ import Content from '../../components/layout/Content';
 import ContentHeader from '../../components/layout/ContentHeader';
 import Tabela from '../../components/Tabela';
 
-class Studenti extends React.Component {
+class Programi extends React.Component {
     displayName: "React-breadcrumbs";
   render() {
-    var menu = [{name:'Dodaj Studenta', link:'studenti/add'}];
+    var menu = [{name:'Dodaj Program', link:'programi/add'}];
     return (
     <Content>
       <ContentHeader title='Naziv stranice' menu={menu}/>
@@ -18,4 +18,4 @@ class Studenti extends React.Component {
   }
 }
 
-export default Studenti;
+export default Programi;
