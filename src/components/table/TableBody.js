@@ -22,7 +22,7 @@ class TableBody extends React.Component {
     data: [
       ['ime', 'prezime', '/studenti/56465465'],
       ['ime', 'prezime', '/profesori/6516516'],
-      ['Profesor', 'Program', '/profesor/program/16516516']
+      ['Profesor', 'Program', '/program/16516516']
     ]
   };
 
